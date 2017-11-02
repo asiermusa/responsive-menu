@@ -2,6 +2,7 @@
 
 Super simple Flexbox based SCSS + jQuery Responsive Menu.
 
+[DEMO](https://asiermusa.github.io/responsive-menu/)
 
 ## Change all values in _vars.scss file (colors, position, fonts...)
 ``` bash
