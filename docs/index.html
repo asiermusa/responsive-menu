@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSS MENU</title>
+  <meta name="description" content="">
+  <meta name="author" content="asiermusa">
+
+  <link rel="stylesheet" href="css/styles.min.css?v=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="content">
+  
+<div class="menu-content overlay">
+			
+	<nav class="menu">
+    	
+    	<ul>
+	    	
+	    	<li class="menu__item">
+	    		<a href="#" class="menu__link">Link 1</a>
+	    	</li>
+	    	
+	    	<li class="menu__item to-left">
+	    		<a href="#" class="menu__link">Link 2</a>
+	    		<ul class="menu__sub-menu">
+		    		<li class="menu__sub-menu__item">
+		    			<a href="" class="menu__sub-menu__link">Submenu link 1</a>
+		    		</li>
+		    		
+		    		<li class="menu__sub-menu__item">
+		    			<a href="" class="menu__sub-menu__link">Submenu link 2</a>
+		    		</li>
+		    		
+		    		<li class="menu__sub-menu__item to-left">
+		    			<a href="" class="menu__sub-menu__link">Submenu link 3</a>
+		    			
+		    			<ul class="menu__sub-menu">
+				    		<li class="menu__sub-menu__item">
+				    			<a href="" class="menu__sub-menu__link">Submenu link 1</a>
+				    		</li>
+				    		
+				    		<li class="menu__sub-menu__item">
+				    			<a href="" class="menu__sub-menu__link">Submenu link 2</a>
+				    		</li>
+				    		
+				    		<li class="menu__sub-menu__item">
+				    			<a href="" class="menu__sub-menu__link">Submenu link 3</a>
+				    			<ul class="menu__sub-menu">
+						    		<li class="menu__sub-menu__item">
+						    			<a href="" class="menu__sub-menu__link">Submenu link 1</a>
+						    		</li>
+						    		
+						    		<li class="menu__sub-menu__item">
+						    			<a href="" class="menu__sub-menu__link">Submenu link 2</a>
+						    		</li>
+				    			</ul>
+				    		</li>
+				    		
+				    		<li class="menu__sub-menu__item">
+				    			<a href="" class="menu__sub-menu__link">Submenu link 4</a>
+				    		</li>
+			    		</ul>
+		    		</li>
+		    		
+		    		<li class="menu__sub-menu__item">
+		    			<a href="" class="menu__sub-menu__link">Submenu link 4</a>
+		    		</li>
+	    		</ul>
+	    		
+	    	</li>
+	    	
+	    	<li class="menu__item">
+	    		<a href="#" class="menu__link">Link 3</a>
+	    	</li>
+	    	
+	    	<li class="menu__item">
+	    		<a href="#" class="menu__link">Link 4</a>
+	    	</li>
+	    	
+    	</ul>
+    	
+	</nav>
+	
+</div>
+		
+<div class="page-content">
+	
+	<div class="page-content__text">
+		
+		<h1>RESPONSIVE MENU</h1>
+		
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	
+	<div id="nav-icon" class="menu-button visible-xs">
+		<span class="burger-icon"></span>
+	</div>
+		
+</div>
+  
+<script type='text/javascript' src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	$('.menu').responsiveMenu({
+		breakpoint: '992'
+	});
+});
+</script>
+
+</body>
+</html>
