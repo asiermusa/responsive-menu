@@ -71,7 +71,7 @@ gulp.task('cmq', function() {
 /* browser-sync for localhost */
 gulp.task('browser-sync', function() {
 	browserSync.init(['dist/css/*.css', 'dist/js/*.js'], {
-		proxy: "localhost:8888/menu_git/"
+		proxy: "localhost:8888" //Your URL
 	});
 });
 
