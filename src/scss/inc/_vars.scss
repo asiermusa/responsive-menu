@@ -1,0 +1,58 @@
+// Mobile first (for menu)
+$breakpoints: (
+  xs: 992px
+);
+
+// primary color
+$primary: #00e5e2;
+
+//colors
+$colors: (
+  menu-bg:  			rgba($primary, 0.8),
+  link-color: 			white,
+  link-color-hover: 	darken($primary, 10%),
+  link-bg: 				$primary,
+  link-bg-hover: 		rgba(white, 0.5),
+  
+  active-color: 		white,
+  active-bg: 			darken($primary, 30%),
+   
+  submenu-bg: 			darken($primary, 10%),
+  submenu-bg-hover: 	$primary,
+  submenu-color: 		white,
+  submenu-color-hover:  white,
+  
+  xs-borders: 			rgba(white, 0.3)
+);
+
+// font family
+$font-family: 'Slabo+27px', sans-serif;
+
+// position
+$position: (
+	menu-position: 		center,
+	menu-fixed: 		true
+);
+
+// sizes
+$sizes: (
+	font-size: 			14px,
+	link-padding: 		30px,
+	menu-height: 		70px,
+	menu-height-xs: 	50px,
+	
+	submenu-font-size: 	12px,
+	submenu-height: 	50px,
+	submenu-width: 		300px
+);
+
+// Hamburger button
+$nav-btn-background: 	linear-gradient(-90deg, $primary, darken($primary, 10%));
+$nav-btn-padding: 		15px;
+$nav-btn-shadow: 		true;
+$nav-btn-radius: 		0;
+
+$nav-color: 			white;
+$nav-width: 			30px;
+$nav-thickness: 		4px;
+$nav-spacing: 			6px;
